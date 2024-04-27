@@ -1,0 +1,60 @@
+.percentile-result-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.percentile-result-title {
+  margin-bottom: 20px;
+}
+
+.percentile-result-value {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.result-percentile {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+.result-percentage-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.result-percentage-circle:before {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+
+
